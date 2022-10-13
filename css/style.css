@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
@@ -21,6 +21,11 @@
   box-sizing: border-box;
 }
 
+.sadImg {
+  width: 300px;
+  box-shadow: 0 0 20px #ffffff; 
+}
+
 body {
   background-color: var(--bg-color);
   display: flex;
@@ -28,7 +33,17 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  background-image: url('./../clouds.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:contain;
+background-position:top;
 }
+
+.clouds {
+  z-index: -1;
+}
+
 
 .container {
   display: flex;
