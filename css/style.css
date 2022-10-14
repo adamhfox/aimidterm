@@ -24,10 +24,12 @@
 .logo {
   height: 125px;
   margin-top: 1rem;
+  
 }
 
 .sadImg {
-  
+  width: 400px;
+  height: 280px;
   box-shadow: 0 0 20px #ffffff; 
 }
 
@@ -109,6 +111,13 @@ header .container {
   border-radius: 4px;
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
+  margin-top: 1rem;
+}
+
+.adv {
+  margin-top: .5rem;
+  font-size: .5rem;
+  font-style: italic;
 }
 
 /* COUNTDOWN SECTION */
