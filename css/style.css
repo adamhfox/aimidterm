@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+.logo {
+  height: 125px;
+}
+
 .sadImg {
   
   box-shadow: 0 0 20px #ffffff; 
@@ -72,9 +76,8 @@ header .container {
 }
 
 /* BUTTONS */
-.h2 {
-  font-family: var(--font-secondary);
-}
+
+
 
 
 .btn {
