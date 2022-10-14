@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #AF8FE2;
+  --bg-color: #ffffff;
   --font-color: #000000;
   --btn-bg-color: #020202;
   --accent-color: #ffffff;
@@ -37,7 +37,7 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  background-image: url('./../clouds.png');
+  background-image: url('./../clouds2.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:contain;
@@ -159,10 +159,16 @@ section {
   border-radius: 0 0 4px 4px;
 }
 
+@font-face { 
+  font-family: std;
+  src: url(./../circular-std-medium-500.ttf);
+  
+  }
+
 .countdown h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
   
-  
+  font-family: std;
   font-size: 3.5rem;
   text-align: center;
 }
