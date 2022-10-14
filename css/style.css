@@ -8,10 +8,10 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #000000;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #B398DC;
+  --bg-color: #AF8FE2;
+  --font-color: #000000;
+  --btn-bg-color: #020202;
+  --accent-color: #ffffff;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .sadImg {
-  width: 200px;
+  width: 400;
   box-shadow: 0 0 20px #ffffff; 
 }
 
@@ -72,23 +72,24 @@ header .container {
 }
 
 /* BUTTONS */
+.h2 {
+  font-family: var(--font-secondary);
+}
+
 
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color:#000;
   font-family: var(--font-secondary);
-  font-style: italic;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
   cursor: pointer;
   position: relative;
   text-decoration: none;
-  outline: none;
+  
 }
 .btn:hover {
   box-shadow: none;
@@ -115,7 +116,7 @@ section {
 .countdown {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   height: 100%;
 }
@@ -157,7 +158,7 @@ section {
 
 .countdown h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  
   
   font-size: 3.5rem;
   text-align: center;
