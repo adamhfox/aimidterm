@@ -84,7 +84,7 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   color:#000;
-  font-family: var(--font-secondary);
+  font-family: std;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
@@ -169,7 +169,7 @@ section {
   text-shadow: 2px 2px 0 var(--accent-color);
   
   font-family: std;
-  font-size: 3.5rem;
+  font-size:1.5rem;
   text-align: center;
 }
 
